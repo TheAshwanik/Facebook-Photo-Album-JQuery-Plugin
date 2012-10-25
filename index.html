@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>martinw.net | Facebook Photo Album (Jquery Plugin) - Demo</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="facebookPhotoAlbum.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("#facebook").facebookPhotoAlbum({
+			'facebookAlbumId' : '10150146071791729',
+			'photoLimit'       : '10',
+			'randomOrder'      : 'true'
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<h1>Facebook Photo Album (Jquery Plugin) - Demo</h1>
+	<ul id="facebook">
+
+	</ul>
+</body>
+
+</html>
